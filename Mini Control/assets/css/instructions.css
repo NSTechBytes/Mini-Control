@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+h1 {
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.toggle-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.toggle-button button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.toggle-button button:hover {
+    background-color: #555;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.dark-mode a {
+    color: #bb86fc;
+}
+.dark-mode .toggle-button button {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+ol {
+    margin: 20px 0;
+}
+li {
+    margin: 10px 0;
+}
+.fa {
+    margin-right: 10px;
+}

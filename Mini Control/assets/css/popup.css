@@ -1,0 +1,87 @@
+/* Add styles to manage light and dark modes */
+body {
+  width: 250px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+.dark-mode {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+#container {
+  padding: 10px;
+  position: relative;
+}
+#theme-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#media-info {
+  text-align: center;
+  display: none;
+  margin-bottom: 10px;
+}
+#media-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+#media-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+#controls {
+  display: none;
+  margin-top: 10px;
+}
+#no-media-message {
+  display: none;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+button,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+}
+button.active {
+  background-color: #4caf50;
+  color: white;
+}
+.dark-mode button.active {
+  background-color: #3e8e41;
+}
+.dark-mode button:not(.active) {
+  background-color: #555555;
+}
+#volume-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#volume-slider {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+#volume-percentage {
+  font-size: 14px;
+}
