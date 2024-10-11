@@ -46,10 +46,10 @@ For users who prefer browsing in dark mode, we’ve added a theme toggle that al
 ## 📸 Screenshots
 
 ![Extension Preview Light Mode]
-*Light mode view with media controls.*![Light](https://github.com/official-nstechfix/Projects-Templates/blob/main/Extensions/Mini%20Control/Light.png)
+*Light mode view with media controls.*![Light](https://github.com/NSTechBytes/Projects-Templates/blob/main/Extensions/Mini%20Control/Light.png)
 
 
-![Extension Preview Dark Mode]![Dark](https://github.com/official-nstechfix/Projects-Templates/blob/main/Extensions/Mini%20Control/Dark.png)
+![Extension Preview Dark Mode]![Dark](https://github.com/NSTechBytes/Projects-Templates/blob/main/Extensions/Mini%20Control/Dark.png)
 
 *Dark mode view with media controls.*
 
@@ -63,4 +63,4 @@ Follow these steps to install the extension in Chrome:
 
 2. 
    ```bash
-   git clone https://github.com/official-nstechfix/Mini-Control.git
+   git clone https://github.com/NSTechBytes/Mini-Control.git
